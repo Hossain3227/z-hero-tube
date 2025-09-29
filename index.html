@@ -13,37 +13,35 @@
   </head>
   <body>
     <!-- header -->
-     <header>
-        <nav class="w-11/12 mx-auto flex justify-between border-b-2 py-5 border-[#17171720]">
-            <div class="logo">
-                <img class="w-[120px]" src="./assets/Logo.png" alt="">
-            </div>
-            <div class="sort">
-                <button class="btn">sort by view</button>
-            </div>
-            <div class="blogs">
-                <button class="btn bg-[#FF1F3D] text-white">Blogs</button>
-            </div>
-        </nav>
-     </header>
-
-     <nav id="category-container" class="flex py-5 justify-center">
-        <div>
-            <button class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
+    <header>
+      <nav
+        class="w-11/12 mx-auto flex justify-between border-b-2 py-5 border-[#17171720]"
+      >
+        <div class="logo">
+          <img class="w-[120px]" src="./assets/Logo.png" alt="" />
         </div>
-        
-     </nav>
+        <div class="sort">
+          <button class="btn">sort by view</button>
+        </div>
+        <div class="blogs">
+          <button class="btn bg-[#FF1F3D] text-white">Blogs</button>
+        </div>
+      </nav>
+    </header>
 
-     <section class="w-11/12 mx-auto grid grid-cols-4 gap-5" id="video-container">
+    <nav id="category-container" class="flex py-5 justify-center">
+      <div>
+        <button onclick="loadVideos()" class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
+      </div>
+    </nav>
 
-     </section>
+    <section
+      class="w-11/12 mx-auto grid grid-cols-4 gap-5"
+      id="video-container"
+    >
+      
+    </section>
 
-
-
-
-
-
-     <script src="script/index.js"></script>
+    <script src="script/index.js"></script>
   </body>
 </html>
-
